@@ -69,8 +69,8 @@ def main():
     sex = st.text_input('Male or Female')
     bmi = st.text_input('bmi value')
     children = st.text_input('No. of Children')
-    smoker = st.text_input('yes or no')
-    region = st.text_input('Southeast, Southwest, Northeast, Northwest')
+    smoker = st.text_input('Smoker - yes or no')
+    region = st.text_input('Region - southeast, southwest, northeast, northwest')
     
     
     #code for prediction
